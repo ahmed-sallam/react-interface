@@ -1,0 +1,20 @@
+.comments {
+  border: 1px solid #005792;
+  margin: 0.5rem 0;
+}
+.comments:nth-last-child(1) {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 3px 3px 3px #1a3951;
+}
+
+.comments h3 {
+  color: #1a3951;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 600;
+}
+.comments hr {
+  background-color: #005792;
+  margin-top: 0;
+}

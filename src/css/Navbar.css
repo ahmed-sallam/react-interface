@@ -1,0 +1,41 @@
+.navbar {
+}
+.navbar .btn-toggle {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+}
+.navbar .btn-toggle .dot {
+  width: 50px;
+  height: 5px;
+  background-color: #005792;
+  margin: 0.5rem 0;
+  border-radius: 50px;
+}
+.navbar hr {
+  background-color: #f6f5e7;
+}
+.navbar nav {
+  padding-top: 4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background-color: #005792;
+  color: #f6f5e7;
+  min-height: 100vh;
+  width: 100%;
+  /* overflow: scroll; */
+}
+.navbar nav h1 {
+  font-weight: 700;
+}
+.navbar nav ul {
+  list-style: none;
+}
+.navbar nav ul li a {
+  cursor: pointer;
+  color: #f6f5e7;
+}
+.navbar nav ul li a:hover {
+  color: #fd5f00;
+}

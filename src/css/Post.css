@@ -1,0 +1,12 @@
+.post {
+  border: 1px solid #005792;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 3px 3px 3px #1a3951;
+}
+.post h2 {
+  color: #1a3951;
+}
+.post hr {
+  background-color: #005792;
+}

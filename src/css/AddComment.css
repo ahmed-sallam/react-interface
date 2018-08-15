@@ -1,0 +1,28 @@
+.add-comment h3 {
+  background-color: #fd5f00;
+  color: #f6f6e9;
+  font-weight: 600;
+  cursor: pointer;
+}
+.add-comment form {
+  border: 1px solid #fd5f00;
+}
+
+.add-comment form input,
+.add-comment form textarea {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.3rem;
+  margin: 0.4rem 0;
+}
+
+.add-comment form input:focus,
+.add-comment form textarea:focus {
+  border: #fd5f00;
+  box-shadow: 0 0 0 0.2rem rgba(253, 95, 0, 0.25);
+}
+.add-comment form button {
+  background-color: #fd5f00;
+  color: #f6f6e9;
+}
